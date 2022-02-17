@@ -12,3 +12,10 @@
 2022-02-17 20:00:01.958  WARN 124822 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 2022-02-17 20:00:02.100  INFO 124822 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 0.747 seconds (JVM running for 211.895)
 2022-02-17 20:00:02.102  INFO 124822 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started.
+2022-02-17 20:28:41.379  INFO 127930 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 11.0.13 on hp-HP-ProBook-430-G4 with PID 127930 (/home/hp/IdeaProjects/EmployeePayrollApp/target/classes started by hp in /home/hp/IdeaProjects/EmployeePayrollApp)
+2022-02-17 20:28:41.381 DEBUG 127930 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-17 20:28:41.382  INFO 127930 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : No active profile set, falling back to default profiles: default
+2022-02-17 20:28:43.531  WARN 127930 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-02-17 20:28:44.675  WARN 127930 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-17 20:28:45.111  INFO 127930 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 4.263 seconds (JVM running for 4.825)
+2022-02-17 20:28:45.120  INFO 127930 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started in null Environment.
