@@ -19,3 +19,17 @@
 2022-02-17 20:28:44.675  WARN 127930 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 2022-02-17 20:28:45.111  INFO 127930 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 4.263 seconds (JVM running for 4.825)
 2022-02-17 20:28:45.120  INFO 127930 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started in null Environment.
+2022-02-24 12:32:53.114  INFO 220646 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.2 on hp-HP-ProBook-430-G4 with PID 220646 (/home/hp/IdeaProjects/EmployeePayrollApp/target/classes started by hp in /home/hp/IdeaProjects/EmployeePayrollApp)
+2022-02-24 12:32:53.115 DEBUG 220646 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-24 12:32:53.115  INFO 220646 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : No active profile set, falling back to default profiles: default
+2022-02-24 12:32:53.339  WARN 220646 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-02-24 12:32:53.389  WARN 220646 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-24 12:32:53.515  INFO 220646 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 0.445 seconds (JVM running for 9898.327)
+2022-02-24 12:32:53.518  INFO 220646 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started in null Environment.
+2022-02-24 12:34:53.214  INFO 220646 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.2 on hp-HP-ProBook-430-G4 with PID 220646 (/home/hp/IdeaProjects/EmployeePayrollApp/target/classes started by hp in /home/hp/IdeaProjects/EmployeePayrollApp)
+2022-02-24 12:34:53.214 DEBUG 220646 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-24 12:34:53.214  INFO 220646 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : No active profile set, falling back to default profiles: default
+2022-02-24 12:34:53.466  WARN 220646 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-02-24 12:34:53.511  WARN 220646 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-24 12:34:53.630  INFO 220646 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 0.446 seconds (JVM running for 10018.442)
+2022-02-24 12:34:53.633  INFO 220646 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started in null Environment.
