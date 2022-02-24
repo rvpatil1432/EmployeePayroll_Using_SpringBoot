@@ -19,3 +19,10 @@
 2022-02-17 20:28:44.675  WARN 127930 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 2022-02-17 20:28:45.111  INFO 127930 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 4.263 seconds (JVM running for 4.825)
 2022-02-17 20:28:45.120  INFO 127930 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started in null Environment.
+2022-02-24 12:43:53.235  INFO 220646 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 17.0.2 on hp-HP-ProBook-430-G4 with PID 220646 (/home/hp/IdeaProjects/EmployeePayrollApp/target/classes started by hp in /home/hp/IdeaProjects/EmployeePayrollApp)
+2022-02-24 12:43:53.236 DEBUG 220646 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-24 12:43:53.236  INFO 220646 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : No active profile set, falling back to default profiles: default
+2022-02-24 12:43:53.464  WARN 220646 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-02-24 12:43:53.506  WARN 220646 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-24 12:43:53.605  INFO 220646 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 0.39 seconds (JVM running for 10558.416)
+2022-02-24 12:43:53.607  INFO 220646 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started in null Environment.
