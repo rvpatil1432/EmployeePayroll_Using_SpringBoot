@@ -7,9 +7,8 @@ import com.bridgelabz.employeepayrollapp.repository.EmployeePayrollRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import java.util.ArrayList;
 import java.util.List;
+
 @Service
 @Slf4j
 public class EmployeePayrollService implements IEmployeePayrollService{
@@ -27,6 +26,11 @@ public class EmployeePayrollService implements IEmployeePayrollService{
         return employeeRepository
                 .findById(empId)
                 .orElseThrow( () -> new EmployeePayrollException("Employee with employeeId " + empId +" does not exists..!!"));
+    }
+
+    @Override
+    public List<EmployeePayrollData> getEmployeesByDepartment(String department) {
+        return employeeRepository.findEmployeesByDepartment(department);
     }
 
     @Override
